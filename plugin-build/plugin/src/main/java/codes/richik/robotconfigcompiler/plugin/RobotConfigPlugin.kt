@@ -3,8 +3,8 @@ package codes.richik.robotconfigcompiler.plugin
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
-const val EXTENSION_NAME = "templateExampleConfig"
-const val TASK_NAME = "templateExample"
+const val EXTENSION_NAME = "robotConfigCompiler"
+const val TASK_NAME = "compileRobotConfig"
 
 abstract class RobotConfigPlugin : Plugin<Project> {
     override fun apply(project: Project) {
