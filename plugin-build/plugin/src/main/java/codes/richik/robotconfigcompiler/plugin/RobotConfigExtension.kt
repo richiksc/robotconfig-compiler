@@ -1,4 +1,4 @@
-package com.ncorti.kotlin.gradle.template.plugin
+package codes.richik.robotconfigcompiler.plugin
 
 import javax.inject.Inject
 import org.gradle.api.Project

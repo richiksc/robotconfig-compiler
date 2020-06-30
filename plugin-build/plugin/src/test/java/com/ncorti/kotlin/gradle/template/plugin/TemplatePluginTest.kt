@@ -1,5 +1,6 @@
 package com.ncorti.kotlin.gradle.template.plugin
 
+import codes.richik.gradle.`robotconfig-compiler`.plugin.TemplateExampleTask
 import org.gradle.testfixtures.ProjectBuilder
 import org.junit.Test
 

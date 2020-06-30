@@ -1,5 +1,6 @@
-package com.ncorti.kotlin.gradle.template.plugin
+package codes.richik.robotconfigcompiler.plugin
 
+import codes.richik.gradle.robotconfigcompiler.plugin.RobotConfigExampleTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
@@ -12,7 +13,7 @@ abstract class TemplatePlugin : Plugin<Project> {
         val extension = project.extensions.create(EXTENSION_NAME, TemplateExtension::class.java, project)
 
         // Add a task that uses configuration from the extension object
-        project.tasks.register(TASK_NAME, TemplateExampleTask::class.java) {
+        project.tasks.register(TASK_NAME, RobotConfigExampleTask::class.java) {
             it.tag.set(extension.tag)
             it.message.set(extension.message)
             it.outputFile.set(extension.outputFile)
