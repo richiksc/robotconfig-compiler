@@ -1,4 +1,4 @@
-package codes.richik.gradle.robotconfigcompiler.plugin
+package codes.richik.robotconfigcompiler.plugin
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.RegularFileProperty

@@ -1,6 +1,5 @@
 package codes.richik.robotconfigcompiler.plugin
 
-import codes.richik.gradle.robotconfigcompiler.plugin.RobotConfigExampleTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
