@@ -6,10 +6,10 @@ import org.gradle.api.Project
 const val EXTENSION_NAME = "templateExampleConfig"
 const val TASK_NAME = "templateExample"
 
-abstract class TemplatePlugin : Plugin<Project> {
+abstract class RobotConfigPlugin : Plugin<Project> {
     override fun apply(project: Project) {
         // Add the 'template' extension object
-        val extension = project.extensions.create(EXTENSION_NAME, TemplateExtension::class.java, project)
+        val extension = project.extensions.create(EXTENSION_NAME, RobotConfigExtension::class.java, project)
 
         // Add a task that uses configuration from the extension object
         project.tasks.register(TASK_NAME, RobotConfigExampleTask::class.java) {

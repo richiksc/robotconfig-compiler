@@ -8,7 +8,7 @@ import org.gradle.api.provider.Property
 const val DEFAULT_OUTPUT_FILE = "template-example.txt"
 
 @Suppress("UnnecessaryAbstractClass")
-abstract class TemplateExtension @Inject constructor(project: Project) {
+abstract class RobotConfigExtension @Inject constructor(project: Project) {
 
     private val objects = project.objects
 
